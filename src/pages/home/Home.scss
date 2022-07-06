@@ -1,0 +1,18 @@
+.Home {
+  position: relative;
+  display: grid;
+  grid-template-columns: 18rem auto 20rem;
+  gap: 1rem;
+}
+
+.profile {
+  //   background-color: red;
+}
+
+.post {
+  background-color: blue;
+}
+
+.rightside {
+  background-color: yellow;
+}
