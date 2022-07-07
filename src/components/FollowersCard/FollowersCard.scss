@@ -1,60 +1,41 @@
-.FollowersCard{
-    width: 100%;
-    display:flex;
-    flex-direction:column;
-    gap:1rem;
-    font-size: 13px;
+.FollowersCard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 13px;
 }
 
 .followers {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.followers > div{
-    display: flex;
-    gap:10px;
-    // align-items: center;
+.followers > div {
+  display: flex;
+  gap: 10px;
+  // align-items: center;
 }
 
-.followersImg{
-    width: 3.2rem;
-    height: 3.2rem;
-    border-radius: 50%;
+.followersImg {
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
 }
 
-.name{
-    display:flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 
-.name > span:nth-of-type(1){
-    font-weight: bold;
+.name > span:nth-of-type(1) {
+  font-weight: bold;
 }
 
-.button{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    color: white;
-    border-radius: 0.5rem;
-    background: var(--buttonBg);
-    transition: all 100ms ease-out;
-}
-
-.fc-button{
-    height: 2rem;
-    padding: 0 20px;
-}
-
-.button:hover {
-    cursor: pointer;
-    color: var(--orange);
-    background: transparent;
-    border: 2px solid var(--orange);
-    transition: all 0.8s ease-out;
+.fc-button {
+  height: 2rem;
+  padding: 0 20px;
 }
